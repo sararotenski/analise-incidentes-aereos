@@ -20,9 +20,6 @@ frequencia = (df['ocorrencia_classificacao'].value_counts().reset_index())
 frequencia.columns = ['Classificação', 'Quantidade']
 print(frequencia)
 
-#listando as aeronaves envolvidas nos incidentes graves
-#???
-
 #listando os tipos de ocorrências que aparecem nos incidentes graves
 tipos_incidentes_graves = pd.merge(incidentes_graves, df2, on='codigo_ocorrencia1')
 print('Tipo de ocorrência encontrados:')
@@ -31,6 +28,7 @@ print(tipos_incidentes_graves['ocorrencia_tipo'].unique())
 print("\nQuantidade de cada tipo:")
 print(tipos_incidentes_graves['ocorrencia_tipo'].value_counts())
 
+#gráfico dos 10 tipos de ocorrência mais frequentes em acidentes graves
 tipos_incidentes_graves_dez = (tipos_incidentes_graves['ocorrencia_tipo'].value_counts().head(10))
 tipos_incidentes_graves_dez.plot(kind='bar', color='pink')
 plt.title('10 tipos de ocorrência mais frequentes')
