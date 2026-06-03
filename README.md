@@ -60,7 +60,7 @@ git clone <https://github.com/sararotenski/analise-incidentes-aereos.git>
 2. Instale as dependências:
 
 ```bash
-pip install pandas
+pip install pandas matplotlib
 ```
 
 3. Execute o projeto:
