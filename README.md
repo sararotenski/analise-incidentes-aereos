@@ -10,6 +10,7 @@ Analisar os registros de ocorrências aeronáuticas e identificar padrões relac
 
 - Python
 - Pandas
+- Matplotlib
 - Git
 - GitHub
 
@@ -53,7 +54,7 @@ incidentes-aereos-analysis/
 1. Clone o repositório:
 
 ```bash
-git clone <url-do-repositorio>
+git clone <https://github.com/sararotenski/analise-incidentes-aereos.git>
 ```
 
 2. Instale as dependências:
