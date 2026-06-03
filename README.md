@@ -1,6 +1,6 @@
 # ✈️ Análise de Incidentes Aéreos
 
-Projeto de análise exploratória de dados utilizando Python e Pandas para investigar ocorrências aeronáuticas registradas no Brasil.
+Projeto de análise exploratória de dados utilizando Python, Pandas e Matplotlib para investigar ocorrências aeronáuticas registradas no Brasil.
 
 ## Objetivo
 
