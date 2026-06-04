@@ -36,3 +36,5 @@ plt.xlabel('tipo de ocorrência')
 plt.ylabel('quantidade')
 plt.tight_layout()
 plt.show()
+
+#aaaaaaaa
